@@ -6,6 +6,7 @@ services:
         environment:
             - POSTGRES_USER=app
             - POSTGRES_PASSWORD=d!@O9p7.4Fg2a
+            - POSTGRES_DB=joule-interview-main-database-1
         volumes:
             - database:/var/lib/postgresql/data
         ports:
